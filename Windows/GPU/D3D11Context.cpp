@@ -86,8 +86,8 @@ HRESULT D3D11Context::CreateTheDevice() {
 static void GetRes(HWND hWnd, int &xres, int &yres) {
 #if PPSSPP_PLATFORM(UWP)
 	// TEMPORARY TODO UWP
-	xres = 1024;
-	yres = 768;
+	xres = 1920;
+	yres = 1080;
 #else
 	RECT rc;
 	GetClientRect(hWnd, &rc);
